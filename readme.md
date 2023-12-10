@@ -32,14 +32,25 @@ The Recipe Finder App is a demonstration of how to build a modern Android app us
 
 
 ### Screenshots from search by name api.
-![searchbyname](https://github.com/skp3214/RecipeFinderApp/assets/95349420/91a8d4f4-00fb-4293-a52e-2d466c272773)
+<p align="center">
+  <img src="https://github.com/skp3214/RecipeFinderApp/assets/95349420/91a8d4f4-00fb-4293-a52e-2d466c272773" alt="Screenshot 1" width="300" />
+</p>
 
-![searchresult](https://github.com/skp3214/RecipeFinderApp/assets/95349420/bf341aa2-ffeb-431f-8774-0d24c22c06b6)
+
+<p align="center">
+  <img src="https://github.com/skp3214/RecipeFinderApp/assets/95349420/bf341aa2-ffeb-431f-8774-0d24c22c06b6" alt="Screenshot 1" width="300" />
+</p>
+
+
 
 ### Screenshots from search by letter api.
-![searchbyletter](https://github.com/skp3214/RecipeFinderApp/assets/95349420/ee208dc4-5c2a-40a6-abe8-2d7daddc4cb8)
+<p align="center">
+  <img src="https://github.com/skp3214/RecipeFinderApp/assets/95349420/ee208dc4-5c2a-40a6-abe8-2d7daddc4cb8" alt="Screenshot 1" width="300" />
+</p>
 
-![searchresult2](https://github.com/skp3214/RecipeFinderApp/assets/95349420/053fc707-3e34-4f2f-9133-9b0a1cd25942)
+<p align="center">
+  <img src="https://github.com/skp3214/RecipeFinderApp/assets/95349420/053fc707-3e34-4f2f-9133-9b0a1cd25942" alt="Screenshot 1" width="300" />
+</p>
 
 
 ## Video Walkthrough
