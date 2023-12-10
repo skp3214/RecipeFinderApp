@@ -1,3 +1,6 @@
+# Download the app.
+[![RecipeApp](https://img.shields.io/badge/Click_Here-Welcome_to_anydayfitness-purple)](https://github.com/skp3214/RecipeFinderApp/blob/master/RecipeFinder.apk)
+
 # Recipe Finder App using MVI
 
 Welcome to the Recipe Finder App repository! This repository contains the source code and resources for the Recipe Finder App developed using the Model-View-Intent (MVI) architecture on the Android platform using Kotlin.
