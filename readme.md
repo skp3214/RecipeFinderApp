@@ -1,5 +1,5 @@
 # Download the app.
-[![RecipeApp](https://img.shields.io/badge/Click_Here-Welcome_to_anydayfitness-purple)](https://github.com/skp3214/RecipeFinderApp/blob/master/RecipeFinder.apk)
+[![RecipeApp](https://img.shields.io/badge/Click_Here-Recipe_Finder_App-purple)](https://github.com/skp3214/RecipeFinderApp/blob/master/RecipeFinder.apk)
 
 # Recipe Finder App using MVI
 
