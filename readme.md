@@ -26,7 +26,10 @@ The Recipe Finder App is a demonstration of how to build a modern Android app us
 
 ## Screenshots from my changed code. 
 ### Screenshot from random recipe api
-![randomrecipe](https://github.com/skp3214/RecipeFinderApp/assets/95349420/1f8e0d35-86b8-4cfa-9b3d-3ce764732fb9)
+<p align="center">
+  <img src="https://github.com/skp3214/RecipeFinderApp/assets/95349420/1f8e0d35-86b8-4cfa-9b3d-3ce764732fb9" alt="Screenshot 1" width="300" />
+</p>
+
 
 ### Screenshots from search by name api.
 ![searchbyname](https://github.com/skp3214/RecipeFinderApp/assets/95349420/91a8d4f4-00fb-4293-a52e-2d466c272773)
