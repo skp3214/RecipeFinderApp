@@ -1,3 +1,6 @@
+# Download the app.
+[![RecipeApp](https://img.shields.io/badge/Click_Here-Recipe_Finder_App-purple)](https://github.com/skp3214/RecipeFinderApp/blob/master/RecipeFinder.apk)
+
 # Recipe Finder App using MVI
 
 Welcome to the Recipe Finder App repository! This repository contains the source code and resources for the Recipe Finder App developed using the Model-View-Intent (MVI) architecture on the Android platform using Kotlin.
@@ -10,6 +13,7 @@ The Recipe Finder App is a demonstration of how to build a modern Android app us
 
 - Get a random recipe from the api
 - Search for recipes using keywords
+- Search for recipe using first letter
 - View detailed recipe information
 - Clean and modular architecture using MVI
 - Kotlin programming language
@@ -17,11 +21,40 @@ The Recipe Finder App is a demonstration of how to build a modern Android app us
 ## Api
  - https://themealdb.com/
 
-## Screenshots
+## Screenshots By Main Coder (YoursSohail) 
 
 <p align="center">
   <img src="screenshot.png" alt="Screenshot 1" width="300" />
 </p>
+
+## Screenshots from my changed code. 
+### Screenshot from random recipe api
+<p align="center">
+  <img src="https://github.com/skp3214/RecipeFinderApp/assets/95349420/1f8e0d35-86b8-4cfa-9b3d-3ce764732fb9" alt="Screenshot 1" width="300" />
+</p>
+
+
+### Screenshots from search by name api.
+<p align="center">
+  <img src="https://github.com/skp3214/RecipeFinderApp/assets/95349420/91a8d4f4-00fb-4293-a52e-2d466c272773" alt="Screenshot 1" width="300" />
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/skp3214/RecipeFinderApp/assets/95349420/bf341aa2-ffeb-431f-8774-0d24c22c06b6" alt="Screenshot 1" width="300" />
+</p>
+
+
+
+### Screenshots from search by letter api.
+<p align="center">
+  <img src="https://github.com/skp3214/RecipeFinderApp/assets/95349420/ee208dc4-5c2a-40a6-abe8-2d7daddc4cb8" alt="Screenshot 1" width="300" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/skp3214/RecipeFinderApp/assets/95349420/053fc707-3e34-4f2f-9133-9b0a1cd25942" alt="Screenshot 1" width="300" />
+</p>
+
 
 ## Video Walkthrough
 
@@ -31,9 +64,10 @@ Check out the video walkthrough of the Recipe Finder App on YouTube: [Watch Vide
 
 To run the Recipe Finder App on your local machine, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/YoursSohail/RecipeFinderApp-MVI.git`
-2. Open the project in Android Studio.
-3. Build and run the app on an emulator or a physical device.
+1. Clone this repository from main coder: `git clone https://github.com/YoursSohail/RecipeFinderApp-MVI.git`
+2. Clone this repository from my code: `git clone https://github.com/skp3214/RecipeFinderApp.git`
+3. Open the project in Android Studio.
+4. Build and run the app on an emulator or a physical device.
 
 ## Contributing
 
