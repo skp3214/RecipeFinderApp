@@ -1,12 +1,12 @@
 package com.example.recipefinderapp.data.model
 
 
-import com.google.gson.annotations.SerializedName
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 
 @Serializable
 data class MealResponse(
-    @SerializedName("meals")
-    val meals: List<Meal>
+    @SerialName("meals")
+    val meals: List<Meal>? = null
 )

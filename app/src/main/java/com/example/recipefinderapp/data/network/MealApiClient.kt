@@ -12,14 +12,18 @@ import io.ktor.serialization.kotlinx.json.json
 object MealApiClient {
     private val apiClient = HttpClient(CIO){
         install(ContentNegotiation) {
-            json()
+            json(kotlinx.serialization.json.Json {
+                ignoreUnknownKeys = true
+                isLenient = true
+                coerceInputValues = true
+            })
         }
     }
 
     suspend fun getRandomRecipe(): List<Meal> {
         val url = "https://www.themealdb.com/api/json/v1/1/random.php"
-        val response = apiClient.get(url).body() as MealResponse
-        return response.meals
+        val response = apiClient.get(url).body<MealResponse>()
+        return response.meals ?: emptyList()
     }
 
     suspend fun getSearchedRecipe(query: String): List<Meal> {
@@ -28,8 +32,8 @@ object MealApiClient {
         } else {
             "https://www.themealdb.com/api/json/v1/1/search.php?s=$query"
         }
-        val response = apiClient.get(url).body() as MealResponse
-        return response.meals
+        val response = apiClient.get(url).body<MealResponse>()
+        return response.meals ?: emptyList()
     }
 
 }

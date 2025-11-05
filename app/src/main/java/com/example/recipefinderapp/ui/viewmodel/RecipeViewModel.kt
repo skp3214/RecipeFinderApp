@@ -22,11 +22,15 @@ class RecipeViewModel: ViewModel() {
         viewModelScope.launch {
             _state.value = RecipeViewState.Loading
             try {
-                _state.value = RecipeViewState.Success(
-                    MealApiClient.getRandomRecipe()
-                )
+                val recipes = MealApiClient.getRandomRecipe()
+                if (recipes.isEmpty()) {
+                    _state.value = RecipeViewState.Error("No recipes found")
+                } else {
+                    _state.value = RecipeViewState.Success(recipes)
+                }
             } catch(e: Exception) {
-                _state.value = RecipeViewState.Error("Error fetching recipe")
+                e.printStackTrace()
+                _state.value = RecipeViewState.Error("Error: ${e.message ?: "Unknown error"}")
             }
         }
     }
@@ -35,11 +39,15 @@ class RecipeViewModel: ViewModel() {
         viewModelScope.launch {
             _state.value = RecipeViewState.Loading
             try {
-                _state.value = RecipeViewState.Success(
-                    MealApiClient.getSearchedRecipe(query)
-                )
+                val recipes = MealApiClient.getSearchedRecipe(query)
+                if (recipes.isEmpty()) {
+                    _state.value = RecipeViewState.Error("No recipes found for '$query'")
+                } else {
+                    _state.value = RecipeViewState.Success(recipes)
+                }
             } catch (e: Exception) {
-                _state.value = RecipeViewState.Error("Error fetching recipes")
+                e.printStackTrace()
+                _state.value = RecipeViewState.Error("Error: ${e.message ?: "Unknown error"}")
             }
         }
     }
